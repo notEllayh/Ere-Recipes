@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ere Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Ere Recipe Book</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <button class="orderbtn">Order Book</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recipes">
+            <div class="recipe-card">
+                <img src="images/fluffy-pancakes.jpg" alt="Fluffy-pancakes"> 
+                <h2>Fluffy Pancake Recipe</h2>
+                <p>Fluffy pancakes are light, airy, and soft with a slightly golden, crispy edge. 
+                    Made with a simple batter of flour, milk, eggs, and a leavening agent like baking powder, they puff up beautifully when cooked. 
+                    These pancakes are the perfect base for toppings like syrup, butter, fresh fruit, or whipped cream, 
+                    making them a delicious and comforting breakfast treat.</p>
+                <button>Read More</button>
+        <section class="add-recipe">
+            <h2>Add a New Recipe</h2>
+            <form id="recipe-form">
+                <input type="text" id="recipe-name" 
+                placeholder="Recipe Name" required> 
+
+                <textarea id="recipe-description" 
+                placeholder="Recipe Description" required></textarea>
+
+                <input type="text" id="recipe-image"
+                placeholder="Image URL">
+
+                <button class="formbtn" type="submit">Add Recipe</button> 
+            </form>
+
+        </section>
+
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ere Recipe</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
